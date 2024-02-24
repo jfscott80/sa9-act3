@@ -7,7 +7,7 @@ class Stack
     @elements = []
     @size = 0
 
-    # str method
+    # str
     def self.display
         if size > 0
             @elements.each do |e|
